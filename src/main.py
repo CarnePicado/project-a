@@ -10,6 +10,7 @@ def main():
 
     print(f"Задача: {task.title}")
     print(f"Описание: {task.description}")
+    print(f"Приоритет: {task.priority}")
     print(f"Статус: {get_task_status(task)}")
 
     task.complete()
